@@ -1,10 +1,11 @@
 import { Container } from "./common/Container/styled";
+import Header from "./common/Header";
 
 function App() {
   return (
-<Container>
-Personal Homepage
-</Container>
+    <Container>
+      <Header />
+    </Container>
   );
 }
 
