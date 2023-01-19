@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {ReactComponent as MessageItem} from "./message.svg"
 
 export const Wrapper = styled.div`
     display: grid;
@@ -52,6 +53,8 @@ export const MailButton = styled.button`
     height: 49px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
+    display: flex;
+    align-items: center;
     background-color: ${({ theme }) => theme.button.background};
     
     font-weight: 600;
@@ -59,4 +62,9 @@ export const MailButton = styled.button`
     line-height: 24px;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.button.text};
+`;
+
+export const Message = styled(MessageItem)`
+    width: 19.23px;
+    height: 17.12px;
 `;

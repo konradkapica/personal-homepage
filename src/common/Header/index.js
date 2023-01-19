@@ -1,4 +1,4 @@
-import { Wrapper, Image, Content, SubHeader, Name, Info, MailButton } from "./styled";
+import { Wrapper, Image, Content, SubHeader, Name, Info, MailButton, Message } from "./styled";
 import photo from "../../images/Konrad_Kapica.jpg"
 
 const Header = () => (
@@ -10,7 +10,10 @@ const Header = () => (
             <Info>
             👨🏻‍💻  I'm a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </Info>
-            <MailButton>Hire me</MailButton>
+            <MailButton>
+                <Message />
+                Hire me
+            </MailButton>
         </Content>
     </Wrapper>
 );
