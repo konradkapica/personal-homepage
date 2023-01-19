@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as BulletItem } from "./bullet.svg"
 
 export const StyledTile = styled.article`
     margin-top: 63px;
@@ -25,13 +26,22 @@ export const StyledList = styled.ul`
     font-size: 18px;
     line-height: 1.4;
     letter-spacing: 0.05em;
+    list-style: none;
     margin: 0;
-    padding: 32px 0px 0px 25px;
+    padding: 32px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8px 120px;
+    grid-gap: 8px 95px;
 `;
 
 export const Item = styled.li`
-    color: ${({theme}) => theme.site.text};
+    display: flex;
+    align-items: center;
+    color: ${({ theme }) => theme.site.text};
+`;
+
+export const Bullet = styled(BulletItem)`
+align-items: center;
+    width: 9px;
+    margin-right: 16px;
 `;
