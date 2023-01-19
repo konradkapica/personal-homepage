@@ -29,9 +29,9 @@ export const StyledList = styled.ul`
     padding: 32px 0px 0px 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px 120px;
 `;
 
 export const Item = styled.li`
     color: ${({theme}) => theme.site.text};
-    padding: 4px 0 4px 0;
 `;
