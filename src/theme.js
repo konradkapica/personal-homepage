@@ -1,6 +1,6 @@
 const colorNames = {
     white: "#FFFFFF",
-    mercury: "#e5e5e5",
+    whiteLilac: "#FBFBFE",
     slateGray: "#6E7E91",
     scienceBlue: "#0366D6",
     mineShaft: "#252525",
@@ -13,7 +13,7 @@ export const theme = {
     },
 
     site: {
-        background: colorNames.mercury,
+        background: colorNames.whiteLilac,
         text: colorNames.slateGray,
         header: colorNames.mineShaft,
     },
