@@ -26,7 +26,7 @@ export const StyledList = styled.ul`
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0;
-    padding: 32px 0px 32px 25px;
+    padding: 32px 0px 0px 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 `;
