@@ -1,7 +1,7 @@
-import {ReactComponent as Github} from "./icons/github.svg"
-import {ReactComponent as Facebook} from "./icons/facebook.svg"
-import {ReactComponent as Instagram} from "./icons/instagram.svg"
-import {ReactComponent as Linkedin} from "./icons/linkedin.svg"
+import { ReactComponent as Github } from "./icons/github.svg"
+import { ReactComponent as Facebook } from "./icons/facebook.svg"
+import { ReactComponent as Instagram } from "./icons/instagram.svg"
+import { ReactComponent as Linkedin } from "./icons/linkedin.svg"
 import { Wrapper, SubHeader, Header, Info, Container, Link } from "./styled";
 
 const Footer = () => (
