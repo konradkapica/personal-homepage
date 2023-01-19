@@ -41,4 +41,5 @@ export const Link = styled.a`
     display: inline-block;
     width: 48px;
     height: 48px;
+    margin-right: 24px;
 `;
