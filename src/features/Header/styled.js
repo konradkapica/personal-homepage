@@ -56,6 +56,7 @@ export const MailButton = styled.button`
     border-radius: 4px;
     display: flex;
     align-items: center;
+    cursor: pointer;
     background-color: ${({ theme }) => theme.button.background};
     
     font-weight: 600;
