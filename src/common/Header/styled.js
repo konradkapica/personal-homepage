@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
     grid-template-columns: auto 1fr;
     grid-gap: 66px;
     align-items: center;
+    margin-bottom: 63px;
 `;
 
 export const Image = styled.img`
