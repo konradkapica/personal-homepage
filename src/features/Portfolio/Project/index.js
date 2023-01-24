@@ -4,7 +4,7 @@ export const Project = () => (
     <Wrapper>
         <Container>
             <Title>Movie</Title>
-            <Description>Tutaj będzie tekst ściągnięty z interneyy</Description>
+            <Description>Tutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj </Description>
             <LinkContainer>
                 <Text>Demo:</Text>
                 <StyledLink>link.do.czegoś-</StyledLink>
@@ -16,7 +16,9 @@ export const Project = () => (
         </Container>
         <Container>
             <Title>Movie</Title>
-            <Description>Tutaj będzie tekst ściągnięty z interneyy</Description>
+            <Description>
+                Tutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyy
+            </Description>
             <LinkContainer>
                 <Text>Demo:</Text>
                 <StyledLink>link.do.czegoś-</StyledLink>
