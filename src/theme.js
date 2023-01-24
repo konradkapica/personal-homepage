@@ -19,6 +19,6 @@ export const theme = {
     },
 
     tile: {
-        background: colorNames.white
+        background: colorNames.white,
     },
 }
