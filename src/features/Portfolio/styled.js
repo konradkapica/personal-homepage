@@ -5,6 +5,7 @@ export const StyledArticle = styled.article`
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    margin-bottom: 24px;
 `;
 
 export const Icon = styled.div`
