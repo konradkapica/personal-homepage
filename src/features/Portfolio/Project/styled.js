@@ -21,7 +21,8 @@ export const Title = styled.h3`
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.button.background};
+    margin-top: 0;
+    color: ${({ theme }) => theme.button.background};
 `;
 
 export const Description = styled.p`
@@ -29,12 +30,13 @@ export const Description = styled.p`
     font-size: 18px;
     line-height: 1.4;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.site.text}
+    margin: 0 0 24px 0;
+    height: 75px;
+    color: ${({ theme }) => theme.site.text}
 `;
 
 export const LinkContainer = styled.div`
     display: flex;
-    justify-content: space-around;
 `;
 
 export const Text = styled.span`
@@ -42,7 +44,8 @@ export const Text = styled.span`
     font-size: 18px;
     line-height: 1.4;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.site.text}
+    min-width: 65px;
+    color: ${({ theme }) => theme.site.text}
 `;
 
 export const StyledLink = styled.a`
@@ -52,5 +55,5 @@ export const StyledLink = styled.a`
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.button.background};
+    color: ${({ theme }) => theme.button.background};
 `;
