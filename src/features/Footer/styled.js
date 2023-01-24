@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     gap: 24px;
     max-width: 670px;
+    margin-top: 120px
 `;
 
 export const SubHeader = styled.h2`
