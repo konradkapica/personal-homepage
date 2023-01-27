@@ -9,6 +9,7 @@ import {
     Message 
 } from "./styled";
 import photo from "./images/Konrad_Kapica.jpg"
+import { email } from "./email";
 
 const Header = () => (
     <Wrapper>
@@ -19,7 +20,7 @@ const Header = () => (
             <Info>
             👨🏻‍💻  I'm a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </Info>
-            <MailButton>
+            <MailButton href={`mailto:${email}`}>
                 <Message />
                 Hire me
             </MailButton>
