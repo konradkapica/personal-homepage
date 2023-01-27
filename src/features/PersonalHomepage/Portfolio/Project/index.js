@@ -2,8 +2,8 @@ import { Container, Title, Description, LinkContainer, Text, StyledLink, Wrapper
 
 export const Project = () => (
     <Wrapper>
-        <Container key={id}>
-            <Title>{name}</Title>
+        <Container>
+            <Title>title</Title>
             <Description>Tutaj będzie tekst ściągnięty z interneyyTutaj będzie tekst ściągnięty z interneyyTutaj </Description>
             <LinkContainer>
                 <Text>Demo:</Text>
