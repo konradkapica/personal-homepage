@@ -46,7 +46,7 @@ export const Info = styled.p`
     color: ${({ theme }) => theme.site.text};
 `;
 
-export const MailButton = styled.button`
+export const MailButton = styled.a`
     padding: 12px 16px;
     gap: 16px;
     position: relative;
@@ -57,6 +57,7 @@ export const MailButton = styled.button`
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
     background-color: ${({ theme }) => theme.button.background};
     
     font-weight: 600;
