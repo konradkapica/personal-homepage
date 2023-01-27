@@ -3,7 +3,7 @@ import { ReactComponent as BulletItem } from "./bullet.svg"
 
 export const StyledTile = styled.article`
     margin-bottom: 72px;
-    max-height: 404px;
+    height: fit-content;
     padding: 32px 33px 32px 32px;
     background-color: ${({ theme }) => theme.tile.background};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
