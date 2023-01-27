@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.ul`
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
 `;
 
-export const Container = styled.div`
+export const Container = styled.li`
     width: 592px;
     height: 322px;
     padding: 56px;

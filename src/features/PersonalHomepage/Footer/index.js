@@ -28,7 +28,6 @@ const Footer = () => (
             </Link>
         </Container>
     </>
-
 );
 
 export default Footer;

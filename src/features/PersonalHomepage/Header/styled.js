@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ReactComponent as MessageItem} from "./message.svg"
+import {ReactComponent as MessageItem} from "./icons/message.svg"
 
 export const Wrapper = styled.div`
     display: grid;

@@ -1,5 +1,14 @@
-import { Wrapper, Image, Content, SubHeader, Name, Info, MailButton, Message } from "./styled";
-import photo from "../../images/Konrad_Kapica.jpg"
+import { 
+    Wrapper, 
+    Image, 
+    Content, 
+    SubHeader, 
+    Name, 
+    Info, 
+    MailButton, 
+    Message 
+} from "./styled";
+import photo from "./images/Konrad_Kapica.jpg"
 
 const Header = () => (
     <Wrapper>
