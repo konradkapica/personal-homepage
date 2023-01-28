@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
     font-family: 'Inter', sans-serif;
     word-break: break-word;
-    padding: 115px 0 110px 0;
+    padding: 115px 40px 110px 40px;
     background-color: ${({theme}) => theme.site.background};
     }
 `;
