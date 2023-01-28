@@ -1,6 +1,6 @@
 import { StyledArticle, Icon, Header, SubHeader } from "./styled";
 import { ReactComponent as Github } from "./github-portfolio.svg"
-import { Project } from "./Project";
+import { ReposError } from "./Repositories/ReposError";
 
 const Portfolio = () => (
     <>
@@ -12,7 +12,7 @@ const Portfolio = () => (
             <SubHeader>My recent projects</SubHeader>
         </StyledArticle>
 
-        <Project />
+        <ReposError />
     </>
 );
 
