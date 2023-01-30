@@ -5,9 +5,9 @@ import {
     SubHeader, 
     Name, 
     Info, 
-    MailButton, 
     Message 
 } from "./styled";
+import { ButtonLink } from "../ButtonLink";
 import photo from "./images/Konrad_Kapica.jpg"
 import { email } from "./email";
 
@@ -20,10 +20,10 @@ const Header = () => (
             <Info>
             👨🏻‍💻  I'm a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </Info>
-            <MailButton href={`mailto:${email}`}>
+            <ButtonLink href={`mailto:${email}`}>
                 <Message />
                 Hire me
-            </MailButton>
+            </ButtonLink>
         </Content>
     </Wrapper>
 );
