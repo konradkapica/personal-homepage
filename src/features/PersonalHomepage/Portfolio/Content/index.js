@@ -9,9 +9,9 @@ export const Content = ({ status, repositories }) => {
         case "loading":
             return <ReposLoading />;
         case "error":
-            return <ReposError />
+            return <ReposError />;
         case "success":
-            return <Repositories repositories={repositories} />
+            return <Repositories repositories={repositories} />;
 
         default:
             throw new Error(`incorrect status: ${status}`);
