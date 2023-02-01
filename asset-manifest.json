@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.19f30843.js",
+    "main.js": "/personal-homepage/static/js/main.e1630ee7.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/Konrad_Kapica.jpg": "/personal-homepage/static/media/Konrad_Kapica.c1c62dbc9f6a2401120e.jpg",
     "static/media/instagram.svg": "/personal-homepage/static/media/instagram.ac575dc2f80befa7ba993f0a04ba6dda.svg",
@@ -12,10 +12,10 @@
     "static/media/message.svg": "/personal-homepage/static/media/message.bec00aedf0fc456f7c63ef572ad0f362.svg",
     "static/media/facebook.svg": "/personal-homepage/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
     "static/media/bullet.svg": "/personal-homepage/static/media/bullet.c28602c8be31d96b4a27bc3627dd6f6f.svg",
-    "main.19f30843.js.map": "/personal-homepage/static/js/main.19f30843.js.map",
+    "main.e1630ee7.js.map": "/personal-homepage/static/js/main.e1630ee7.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.19f30843.js"
+    "static/js/main.e1630ee7.js"
   ]
 }
