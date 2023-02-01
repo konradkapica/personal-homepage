@@ -12,13 +12,13 @@ export const Repositories = ({ repositories }) => {
 
     return (
         <Wrapper>
-            {repositories.map(({ id, name, description, html_url }) => (
-                <Container>
-                    <Title key={id}>{name}</Title>
+            {repositories.map(({ id, name, description, html_url, homepage }) => (
+                <Container key={id}>
+                    <Title>{name}</Title>
                     <Description>{description}</Description>
                     <LinkContainer>
                         <Text>Demo:</Text>
-                        <StyledLink>link.do.czegoś-</StyledLink>
+                        <StyledLink>{homepage}</StyledLink>
                     </LinkContainer>
                     <LinkContainer>
                         <Text>Code:</Text>
