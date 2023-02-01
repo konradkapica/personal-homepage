@@ -5,6 +5,11 @@ export const Wrapper = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
+
+    @media (max-width: 1289px) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 `;
 
 export const Container = styled.li`
