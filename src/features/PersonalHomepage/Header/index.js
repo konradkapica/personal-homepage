@@ -9,7 +9,7 @@ import {
 } from "./styled";
 import { ButtonLink } from "../ButtonLink";
 import photo from "./images/Konrad_Kapica.jpg"
-import { email } from "./email";
+import { email } from "../email";
 
 const Header = () => (
     <Wrapper>
