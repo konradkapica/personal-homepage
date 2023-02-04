@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     word-break: break-word;
     padding: 115px 40px 110px 40px;
-    background-color: ${({theme}) => theme.site.background};
+    background-color: ${({ theme }) => theme.site.background};
+
+        @media (max-width: 767px) {
+        padding: 33px 13px 30px 13px;
+        }
     }
 `;
