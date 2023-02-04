@@ -25,7 +25,7 @@ export const Header = styled.h2`
 export const SubHeader = styled.p`
     font-weight: 400;
     font-size: 20px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0;
     color: ${({ theme }) => theme.site.header};
