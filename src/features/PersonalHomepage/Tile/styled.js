@@ -25,7 +25,7 @@ export const Title = styled.h2`
     color: ${({ theme }) => theme.site.header};
 
     @media (max-width: 767px) {
-        font-size: 18px;
+        font-size: clamp(18px, 6vw, 25px);
         line-height: 22px;
         padding-bottom: 12px;
     }
@@ -33,7 +33,7 @@ export const Title = styled.h2`
 
 export const StyledList = styled.ul`
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(14px, 5vw, 18px);
     line-height: 1.4;
     letter-spacing: 0.05em;
     list-style: none;
@@ -48,7 +48,6 @@ export const StyledList = styled.ul`
     }
 
     @media (max-width: 767px) {
-        font-size: 14px;
         grid-template-columns: 1fr;
         padding: 12px 0 0 0;
     }
