@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.e1630ee7.js",
+    "main.js": "/personal-homepage/static/js/main.81ea7005.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/Konrad_Kapica.jpg": "/personal-homepage/static/media/Konrad_Kapica.c1c62dbc9f6a2401120e.jpg",
-    "static/media/instagram.svg": "/personal-homepage/static/media/instagram.ac575dc2f80befa7ba993f0a04ba6dda.svg",
-    "static/media/github.svg": "/personal-homepage/static/media/github.09abe07d9aebd72f04b4118999889c9a.svg",
+    "static/media/instagram_LM.svg": "/personal-homepage/static/media/instagram_LM.c4e5ffc5cc23ef975d43e5923398d5c9.svg",
+    "static/media/github_LM.svg": "/personal-homepage/static/media/github_LM.2036edf053946586d582fb157a4d33ac.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/github-portfolio.svg": "/personal-homepage/static/media/github-portfolio.571d1ccb5b05142ffef2ab4d835a907a.svg",
-    "static/media/linkedin.svg": "/personal-homepage/static/media/linkedin.2c26b104242a1c77c13c1498fc1cd787.svg",
+    "static/media/linkedin_LM.svg": "/personal-homepage/static/media/linkedin_LM.32dfdb723d719e3e7750978b975ea0db.svg",
     "static/media/Danger.svg": "/personal-homepage/static/media/Danger.368eab1b87e3c2785bab7da11c278b44.svg",
     "static/media/message.svg": "/personal-homepage/static/media/message.bec00aedf0fc456f7c63ef572ad0f362.svg",
-    "static/media/facebook.svg": "/personal-homepage/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
+    "static/media/facebook_LM.svg": "/personal-homepage/static/media/facebook_LM.1f62b7dea3beb1af57137267f61deec0.svg",
     "static/media/bullet.svg": "/personal-homepage/static/media/bullet.c28602c8be31d96b4a27bc3627dd6f6f.svg",
-    "main.e1630ee7.js.map": "/personal-homepage/static/js/main.e1630ee7.js.map",
+    "main.81ea7005.js.map": "/personal-homepage/static/js/main.81ea7005.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e1630ee7.js"
+    "static/js/main.81ea7005.js"
   ]
 }
