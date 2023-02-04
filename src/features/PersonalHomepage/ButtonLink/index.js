@@ -19,4 +19,12 @@ export const ButtonLink = styled.a`
     line-height: 24px;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.button.text};
+
+    &:hover {
+        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+    }
+
+    &:active {
+        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+    }
 `;
