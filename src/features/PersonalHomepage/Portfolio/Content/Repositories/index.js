@@ -18,11 +18,11 @@ export const Repositories = ({ repositories }) => {
                     <Description>{description}</Description>
                     <LinkContainer>
                         <Text>Demo:</Text>
-                        <StyledLink>{homepage}</StyledLink>
+                        <StyledLink target="_blank" href={homepage}>Visit page</StyledLink>
                     </LinkContainer>
                     <LinkContainer>
                         <Text>Code:</Text>
-                        <StyledLink target="_blank" href={html_url}>{html_url}</StyledLink>
+                        <StyledLink target="_blank" href={html_url}>Browse repository</StyledLink>
                     </LinkContainer>
                 </Container>
             ))}
