@@ -24,11 +24,12 @@ export const SubHeader = styled.h2`
 
 export const Header = styled.header`
     font-weight: 900;
-    font-size: clamp(18px, 5vw, 32px);
+    font-size: clamp(18px, 6vw, 32px);
     line-height: 39px;
     letter-spacing: 0.05em;
     color: ${({theme}) => theme.site.header};
     cursor: pointer;
+    transition: 0.3s;
 
     &:hover {
         color: ${({theme}) => theme.button.background}
@@ -37,7 +38,7 @@ export const Header = styled.header`
 
 export const Info = styled.p`
     font-weight: 400;
-    font-size: clamp(14px, 5vw, 18px);
+    font-size: clamp(14px, 4.5vw, 18px);
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0;
@@ -59,6 +60,7 @@ export const Link = styled.a`
     margin-right: 24px;
     cursor: pointer;
     filter: saturate(0) contrast(300%);
+    transition: 0.3s;
 
     &:hover {
         filter: saturate(100%);
@@ -67,5 +69,6 @@ export const Link = styled.a`
     @media (max-width: 767px) {
         width: 31px;
         height: 31px;
+        margin-right: 40px;
     }
 `;
