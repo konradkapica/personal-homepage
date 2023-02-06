@@ -13,6 +13,7 @@ export const ButtonLink = styled.a`
     cursor: pointer;
     text-decoration: none;
     background-color: ${({ theme }) => theme.button.background};
+    transition: 0.3s;
     
     font-weight: 600;
     font-size: 20.0584px;
