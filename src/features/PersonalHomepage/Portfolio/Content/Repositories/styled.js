@@ -41,8 +41,9 @@ export const Title = styled.h3`
 `;
 
 export const Description = styled.p`
+    height: fit-content;
     font-weight: 400;
-    font-size: clamp(14px, 5vw, 18px);
+    font-size: clamp(14px, 4vw, 18px);
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0 0 24px 0;
