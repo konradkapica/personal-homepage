@@ -14,6 +14,11 @@ export const TextLoading = styled.span`
     line-height: 1.4;  
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.site.header};
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+        text-align: center;
+    }
 `;
 
 export const Spinner = styled.div`
@@ -25,6 +30,13 @@ export const Spinner = styled.div`
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 0.8s linear infinite;
+
+    @media (max-width: 767px) {
+        width: 80px;
+        height: 80px;
+        border: 8.5px solid rgba(209, 213, 218, 0.3);
+        border-bottom-color: #0366D6;
+    }
 
     @keyframes rotation {
     0% {
