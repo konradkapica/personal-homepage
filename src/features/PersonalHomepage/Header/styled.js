@@ -3,7 +3,7 @@ import {ReactComponent as MessageItem} from "./icons/message.svg"
 
 export const Wrapper = styled.div`
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 66px;
     align-items: center;
     margin-bottom: 63px;
@@ -15,8 +15,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 398px;
-    height: 398px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     transition: 0.7s;
 
