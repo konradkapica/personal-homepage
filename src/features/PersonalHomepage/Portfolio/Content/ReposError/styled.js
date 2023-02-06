@@ -5,6 +5,10 @@ export const WrapperError = styled.div`
     flex-direction: column;
     align-items: center;
     margin-top: 71px;
+
+    @media (max-width: 767px) {
+        margin-top: 35px;
+    }
 `;
 
 export const IconError = styled.div`
@@ -19,6 +23,10 @@ export const HeaderError = styled.header`
     letter-spacing: 0.05em;
     color: ${({theme}) => theme.site.header};
     margin-bottom: 32px;
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
 `;
 
 export const InfoError = styled.span`
@@ -30,4 +38,8 @@ export const InfoError = styled.span`
     color: ${({theme}) => theme.site.header};
     margin-bottom: 32px;
     text-align: center;
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
 `;
