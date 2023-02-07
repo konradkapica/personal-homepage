@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { selectIsDarkTheme, toggleTheme } from "../themeSlice";
+import { Wrapper, Button, Text, Container, IconWrapper, Icon } from "./styled";
 
 export const ThemeSwitch = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
