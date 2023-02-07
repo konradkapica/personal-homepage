@@ -5,6 +5,7 @@ export const Wrapper = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
+    background: ${({theme}) => theme.colors.boxBackground};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         grid-template-columns: 1fr;
