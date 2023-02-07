@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as BulletItem } from "./bullet.svg"
+import { ReactComponent as BulletItem } from "./bullet.svg";
 
 export const StyledTile = styled.article`
     margin-bottom: 72px;
@@ -60,7 +60,7 @@ export const Item = styled.li`
 `;
 
 export const Bullet = styled(BulletItem)`
-align-items: center;
+    align-items: center;
     width: 9px;
     margin-right: 16px;
     

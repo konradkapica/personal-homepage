@@ -4,7 +4,7 @@ const Tile = ({ title, skills }) => (
     <StyledTile>
         <Title>{title}</Title>
         <StyledList>
-            {skills.map((skill) => 
+            {skills.map((skill) =>
                 <Item key={skill}>
                     <Bullet />
                     {skill}
