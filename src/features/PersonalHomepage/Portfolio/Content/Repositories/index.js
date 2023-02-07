@@ -28,5 +28,4 @@ export const Repositories = ({ repositories }) => {
             ))}
         </Wrapper>
     );
-
 };

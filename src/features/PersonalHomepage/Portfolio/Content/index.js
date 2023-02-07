@@ -2,7 +2,7 @@ import { ReposLoading } from "./ReposLoading"
 import { ReposError } from "./ReposError"
 import { Repositories } from "./Repositories"
 
-export const Content = ({ status, repositories }) => { 
+export const Content = ({ status, repositories }) => {
     switch (status) {
         case "initial":
             return null;
@@ -15,5 +15,5 @@ export const Content = ({ status, repositories }) => {
 
         default:
             throw new Error(`incorrect status: ${status}`);
-    }
-}
+    };
+};

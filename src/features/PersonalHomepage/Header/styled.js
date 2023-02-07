@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as MessageItem } from "./icons/message.svg"
+import { ReactComponent as MessageItem } from "./icons/message.svg";
 
 export const Wrapper = styled.div`
     display: grid;
@@ -26,9 +26,7 @@ export const Image = styled.img`
     }
 `;
 
-export const Content = styled.div`
-    
-`;
+export const Content = styled.div``;
 
 export const SubHeader = styled.h2`
     font-weight: 700;
