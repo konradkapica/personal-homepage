@@ -15,16 +15,16 @@ const Footer = () => (
             </Info>
         </Wrapper>
         <Container>
-            <Link target="_blank" href="https://github.com/Rudolfini">
+            <Link target="_blank" rel="noreferrer" href="https://github.com/Rudolfini">
                 <Github />
             </Link>
-            <Link target="_blank" href="https://www.linkedin.com/in/konrad-kapica-728529242/">
+            <Link target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konrad-kapica-728529242/">
                 <Linkedin />
             </Link>
-            <Link target="_blank" href="https://www.facebook.com/konrad.kapica.3">
+            <Link target="_blank" rel="noreferrer" href="https://www.facebook.com/konrad.kapica.3">
                 <Facebook />
             </Link>
-            <Link target="_blank" href="https://www.instagram.com/konradkapica/">
+            <Link target="_blank" rel="noreferrer" href="https://www.instagram.com/konradkapica/">
                 <Instagram />
             </Link>
         </Container>
