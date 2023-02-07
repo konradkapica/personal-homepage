@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./icons/sun.svg";
 
 export const Wrapper = styled.div`
@@ -41,13 +42,13 @@ export const IconWrapper = styled.span`
     padding: 3px;
     border-radius: 50%;
     display: flex;
-    transition: transform 0.3s;
+    transition: transform 0.25s;
 
-    ${({ movieToRight }) => movieToRight && css`
-    transform: translateX(20px);
+    ${({ moveToRight }) => moveToRight && css`
+        transform: translateX(20px);
     `}
 `;
 
 export const Icon = styled(SunIcon)`
-    color: ${({theme}) => theme.colors.themeSwitch.icon};
+    color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;
