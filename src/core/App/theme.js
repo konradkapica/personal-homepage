@@ -28,6 +28,7 @@ const common = {
 
 export const themeLight = {
     ...common,
+
     colors: {
         primary: colorNames.scienceBlue,
         textPrimary: colorNames.mineShaft,
@@ -56,6 +57,7 @@ export const themeLight = {
 
 export const themeDark = {
     ...common,
+
     colors: {
         primary: colorNames.dodgerBlue,
         textPrimary: colorNames.white,
@@ -68,7 +70,7 @@ export const themeDark = {
             border: colorNames.ironTransparent,
             shadow: colorNames.shipCove,
         },
-        boxBakground: colorNames.mineShaftLighter,
+        boxBackground: colorNames.mineShaftLighter,
         headerLine: colorNames.tundora,
         tile: {
             border: colorNames.tundora,
