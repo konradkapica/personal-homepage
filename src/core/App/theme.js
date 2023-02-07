@@ -40,7 +40,7 @@ export const themeLight = {
             border: colorNames.ironTransparent,
             shadow: colorNames.anakiwa,
         },
-        boxBakground: colorNames.white,
+        boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
         tile: {
             border: colorNames.porcelain,

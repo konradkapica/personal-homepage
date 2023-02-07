@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     max-width: 670px;
     margin-top: 120px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         gap: 12px;
         margin-top: 48px;
     }
@@ -19,7 +19,7 @@ export const SubHeader = styled.h2`
     line-height: 1.3;
     text-transform: uppercase;
     margin: 0;
-    color: ${({theme}) => theme.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const Header = styled.header`
@@ -27,12 +27,12 @@ export const Header = styled.header`
     font-size: clamp(18px, 6vw, 32px);
     line-height: 39px;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
     cursor: pointer;
     transition: 0.3s;
 
     &:hover {
-        color: ${({theme}) => theme.button.background}
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;
 
@@ -42,13 +42,13 @@ export const Info = styled.p`
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0;
-    color: ${({theme}) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const Container = styled.div`
     margin-top: 56px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 40px;
     }
 `;
@@ -66,7 +66,7 @@ export const Link = styled.a`
         filter: saturate(100%);
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         width: 31px;
         height: 31px;
         margin-right: 40px;

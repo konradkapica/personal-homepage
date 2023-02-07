@@ -6,7 +6,7 @@ export const WrapperError = styled.div`
     align-items: center;
     margin-top: 71px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 35px;
     }
 `;
@@ -21,10 +21,10 @@ export const HeaderError = styled.header`
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.05em;
-    color: ${({theme}) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
     margin-bottom: 32px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 18px;
     }
 `;
@@ -35,11 +35,11 @@ export const InfoError = styled.span`
     line-height: 1.4;
     letter-spacing: 0.05em;
     max-width: 426px;
-    color: ${({theme}) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
     margin-bottom: 32px;
     text-align: center;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 16px;
     }
 `;

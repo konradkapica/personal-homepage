@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ReactComponent as MessageItem} from "./icons/message.svg"
+import { ReactComponent as MessageItem } from "./icons/message.svg"
 
 export const Wrapper = styled.div`
     display: grid;
@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     align-items: center;
     margin-bottom: 63px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 13px;
     }
@@ -20,7 +20,7 @@ export const Image = styled.img`
     border-radius: 50%;
     transition: 0.7s;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         width: 133px;
         height: 133px;
     }
@@ -36,14 +36,14 @@ export const SubHeader = styled.h2`
     line-height: 1.3;
     margin-bottom: 12px;
     text-transform: uppercase;
-    color: ${({ theme }) => theme.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const Name = styled.header`
     font-weight: 900;
     font-size: clamp(22px, 5vw, 38px);
     letter-spacing: 0.05em;
-    color: ${({ theme }) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const Info = styled.p`
@@ -54,9 +54,9 @@ export const Info = styled.p`
     margin-top: 35px;
     margin-bottom: 32px;
     letter-spacing: 0.05em;
-    color: ${({ theme }) => theme.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 16px;
     }
 `;

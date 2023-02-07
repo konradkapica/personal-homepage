@@ -6,7 +6,7 @@ export const Wrapper = styled.ul`
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
 
-    @media (max-width: 1100px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         grid-template-columns: 1fr;
         justify-items: center;
     }
@@ -16,7 +16,7 @@ export const Container = styled.li`
     width: 100%;
     height: 322px;
     padding: 56px;
-    color: ${({ theme }) => theme.tile.background};
+    color: red; //add color from theme
     border: 6px solid rgba(209, 213, 218, 0.3);
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
@@ -25,7 +25,7 @@ export const Container = styled.li`
         border: 6px solid rgba(3, 102, 214, 0.2);
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding: 24px;
         height: fit-content;
     }
@@ -37,7 +37,7 @@ export const Title = styled.h3`
     line-height: 29px;
     letter-spacing: 0.05em;
     margin-top: 0;
-    color: ${({ theme }) => theme.button.background};
+    color: ${({ theme }) => theme.colors.primary};
 `;
 
 export const Description = styled.p`
@@ -48,7 +48,7 @@ export const Description = styled.p`
     letter-spacing: 0.05em;
     margin: 0 0 24px 0;
     height: 75px;
-    color: ${({ theme }) => theme.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const LinkContainer = styled.div`
@@ -62,7 +62,7 @@ export const Text = styled.span`
     line-height: 1.4;
     letter-spacing: 0.05em;
     min-width: 65px;
-    color: ${({ theme }) => theme.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const StyledLink = styled.a`
@@ -72,7 +72,7 @@ export const StyledLink = styled.a`
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-    color: ${({ theme }) => theme.button.background};
+    color: ${({ theme }) => theme.colors.primary};
 
     &:hover {
         filter: brightness(125%);

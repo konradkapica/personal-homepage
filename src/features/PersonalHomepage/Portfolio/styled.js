@@ -19,7 +19,7 @@ export const Header = styled.h2`
     line-height: 36px;
     letter-spacing: 0.05em;
     margin: 5px 0 0 0;
-    color: ${({ theme }) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const SubHeader = styled.p`
@@ -28,5 +28,5 @@ export const SubHeader = styled.p`
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 0;
-    color: ${({ theme }) => theme.site.header};
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
