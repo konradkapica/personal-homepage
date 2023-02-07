@@ -1,7 +1,7 @@
-import { ReactComponent as Github } from "./icons/github_LM.svg"
-import { ReactComponent as Facebook } from "./icons/facebook_LM.svg"
-import { ReactComponent as Instagram } from "./icons/instagram_LM.svg"
-import { ReactComponent as Linkedin } from "./icons/linkedin_LM.svg"
+import { ReactComponent as Github } from "./icons/github_LM.svg";
+import { ReactComponent as Facebook } from "./icons/facebook_LM.svg";
+import { ReactComponent as Instagram } from "./icons/instagram_LM.svg";
+import { ReactComponent as Linkedin } from "./icons/linkedin_LM.svg";
 import { Wrapper, SubHeader, Header, Info, Container, Link } from "./styled";
 import { email } from "../email";
 

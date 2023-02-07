@@ -59,11 +59,11 @@ export const Link = styled.a`
     height: 48px;
     margin-right: 24px;
     cursor: pointer;
-    filter: saturate(0) contrast(300%);
+    color: ${({ theme }) => theme.colors.textPrimary};
     transition: 0.3s;
 
     &:hover {
-        filter: saturate(100%);
+        color: ${({ theme }) => theme.colors.primary};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
