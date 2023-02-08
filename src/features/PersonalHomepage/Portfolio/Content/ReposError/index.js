@@ -10,7 +10,7 @@ export const ReposError = () => {
             </IconError>
             <HeaderError>Ooops! Something went wrong... </HeaderError>
             <InfoError>Sorry, failed to load Github projects.<br /> You can check them directly on Github.</InfoError>
-            <ButtonLink target="_blank" href={"https://github.com/Rudolfini"}>Go to Github</ButtonLink>
+            <ButtonLink target="_blank" href={"https://github.com/konradkapica"}>Go to Github</ButtonLink>
         </WrapperError>
     )
 };
