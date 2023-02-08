@@ -4,7 +4,7 @@
 
 ## 💻 Demo
 
-To see my personal homepage [click here](https://rudolfini.github.io/personal-homepage/)
+To see my personal homepage [click here](https://konradkapica.github.io/personal-homepage/)
 
 ## 📋 Description
 
