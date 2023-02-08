@@ -22,13 +22,14 @@ export const SubHeader = styled.h2`
     color: ${({ theme }) => theme.colors.site.text};
 `;
 
-export const Header = styled.header`
+export const Header = styled.a`
     font-weight: 900;
     font-size: clamp(18px, 6vw, 32px);
     line-height: 39px;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.textPrimary};
     cursor: pointer;
+    text-decoration: none;
     transition: 0.3s;
 
     &:hover {
